@@ -4,45 +4,45 @@ A full-stack web application that allows users to discover, review, and manage c
 
 ## 🚀 Features
 
-🔐 User Authentication with secure sessions via Passport.js
-🏕️ Campground CRUD – Create, edit, delete, and view campgrounds
-📝 Review System – Leave reviews for campgrounds
-🖼️ Image Uploads via Cloudinary
-🔒 Ownership-based Access Control – Only authors can edit/delete their content
-⚠️ Error Handling with custom messages and flash alerts
-🧼 Security – Helmet, Joi validation, and MongoDB injection protection
-📍 Map Integration (optional) using MapTiler (if enabled)
+🔐 User Authentication with secure sessions via Passport.js <br>
+🏕️ Campground CRUD – Create, edit, delete, and view campgrounds<br>
+📝 Review System – Leave reviews for campgrounds<br>
+🖼️ Image Uploads via Cloudinary<br>
+🔒 Ownership-based Access Control – Only authors can edit/delete their content<br>
+⚠️ Error Handling with custom messages and flash alerts<br>
+🧼 Security – Helmet, Joi validation, and MongoDB injection protection<br>
+📍 Map Integration (optional) using MapTiler (if enabled)<br>
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend: EJS, Bootstrap
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose)
-Auth: Passport.js with session-based authentication
-Uploads: Cloudinary + Multer
-Validation & Security: Joi, Helmet, express-mongo-sanitize
+Frontend: EJS, Bootstrap<br>
+Backend: Node.js, Express.js<br>
+Database: MongoDB (Mongoose)<br>
+Auth: Passport.js with session-based authentication<br>
+Uploads: Cloudinary + Multer<br>
+Validation & Security: Joi, Helmet, express-mongo-sanitize<br>
 
 ## 🧪 Environment Setup
 
-Create a .env file and add:
+Create a .env file and add:<br>
 
-DB_URL=your_mongodb_connection
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_KEY=your_key
-CLOUDINARY_SECRET=your_secret
-SECRET=session_secret
+DB_URL=your_mongodb_connection<br>
+CLOUDINARY_CLOUD_NAME=your_cloud_name<br>
+CLOUDINARY_KEY=your_key<br>
+CLOUDINARY_SECRET=your_secret<br>
+SECRET=session_secret<br>
 
 ## 🧠 Learnings
 
-Implemented secure session-based authentication
-Learned ownership-based route protection using middleware
-Integrated cloud-based image uploads with Multer and Cloudinary
-Improved app reliability through structured error handling
+Implemented secure session-based authentication<br>
+Learned ownership-based route protection using middleware<br>
+Integrated cloud-based image uploads with Multer and Cloudinary<br>
+Improved app reliability through structured error handling<br>
 
 ## 📌 Future Improvements
 
-Add user profile pages
-Integrate map location picker
-Enable search & filter functionality
+Add user profile pages<br>
+Integrate map location picker<br>
+Enable search & filter functionality<br>
 
 
